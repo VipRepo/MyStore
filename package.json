@@ -1,0 +1,62 @@
+{
+  "name": "crypto-service",
+  "version": "1.0.0",
+  "description": "Cypto service",
+  "author": "Vipul Goyal <vipulgoyal999@gmail.com>",
+  "main": "server.js",
+  "private": false,
+  "engines": {
+    "node": ">=4.8.0",
+    "npm": ">=2.15.11",
+    "yarn": ">=0.20.3"
+  },
+  "scripts": {
+    "start": "gulp serve"
+  },
+  "repository": {},
+  "keywords": [],
+  "dependencies": {
+    "axios": "0.17.1",
+    "bluebird": "3.4.6",
+    "body-parser": "1.15.2",
+    "cors": "2.8.1",
+    "dotenv": "^4.0.0",
+    "express": "4.14.0",
+    "express-validation": "1.0.1",
+    "helmet": "3.1.0",
+    "http-status": "^0.2.0",
+    "joi": "10.0.6",
+    "mongoose": "4.7.4",
+    "morgan": "1.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-core": "6.18.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-preset-es2015": "6.16.0",
+    "babel-preset-stage-2": "6.18.0",
+    "eslint": "3.16.1",
+    "eslint-config-airbnb-base": "7.1.0",
+    "eslint-plugin-import": "1.16.0",
+    "eslint-watch": "2.1.14",
+    "gulp": "3.9.1",
+    "gulp-babel": "6.1.2",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-newer": "^1.1.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.1.5"
+  },
+  "license": "MIT",
+  "config": {},
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
+  }
+}
