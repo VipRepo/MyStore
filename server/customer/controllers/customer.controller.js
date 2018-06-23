@@ -26,7 +26,7 @@ const customerController = {};
   customerController.find = (query) => {
     return new Promise((resolve, reject) => {
       Customer.find({
-        name: /query.name/,
+        name: new RegExp(query.name, 'i'),
       }).then((customers) => {
         resolve(customers);
       },(error) => {
